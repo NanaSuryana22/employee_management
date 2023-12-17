@@ -32,15 +32,15 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index3.html" class="nav-link">
+                    <a href="{{ route('department.index') }}" class="nav-link @yield('department')">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Department</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="./index3.html" class="nav-link">
+                    <a href="{{ route('position.index') }}" class="nav-link @yield('jabatan')">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>Position</p>
+                        <p>Jabatan</p>
                     </a>
                 </li>
                 <li class="nav-item">
